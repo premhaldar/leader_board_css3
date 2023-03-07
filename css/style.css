@@ -1,0 +1,119 @@
+/* fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+/* common css */
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+.container{
+    background-color:  #FFFFFF;
+    width: 870px;
+    padding: 30px;
+    margin-top: 30px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* top player styles */
+.player-title{
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player-name{
+    margin-left: 16px;
+    font-size: 18px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+/* blog start */
+.top-blog-title{
+    margin-top: 30px;
+}
+.top-blog{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 30px;
+}
+.blogs{
+   display: flex; 
+}
+.blogs .blog-img img{
+    width: 177px;
+    height: 117px;
+}
+.blogs .blog-write{
+    margin-left: 16px;
+}
+.blogs .blog-write .content{
+    margin-top: 0px;
+}
+.blogs .blog-write p{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blogs .blog-write p a{
+    text-decoration: none;
+    color: #562EFF;
+    font-size: 16px;
+}
+/* course starts */
+.course .course-banner img{
+    width: 266px;
+    height: 141px;
+}
+.course-start{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.course-heading{
+    font-size: 20px;
+}
+.course-author{
+    font-size: 15px;
+    color: #ED6B4F;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+.rate{
+    margin-left: 10px;
+}
+.time{
+    background-color:#FEE5DF ;
+    color: #FF4A60;
+    font-size: 15px;
+    border-radius: 15px;
+    padding: 5px;
+}
